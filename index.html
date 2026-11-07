@@ -9,16 +9,24 @@
 
 <body>
 
-    <h1>Student Task Manager</h1>
+    <div class="container">
+        <h1>Student Task Manager</h1>
 
-    <p>Manage your daily study tasks easily.</p>
+        <p>Manage your daily study tasks easily.</p>
 
-    <input type="text" id="taskInput" placeholder="Enter your task">
+        <div class="task-input">
+            <input type="text" id="taskInput"
+            placeholder="Enter your task">
 
-    <button>Add Task</button>
+            <button id="addButton">Add Task</button>
+        </div>
 
-    <ul id="taskList">
-    </ul>
-<script src="script.js"></script>
+        <h2>My Tasks</h2>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
